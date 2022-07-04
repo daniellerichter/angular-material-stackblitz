@@ -1,3 +1,17 @@
 table {
   width: 100%;
 }
+
+.selection-toolbar {
+  display: flex;
+  padding-left: 24px !important;
+
+  &-button {
+    margin-left: 16px !important;
+    text-transform: uppercase;
+
+    &:first-of-type {
+      margin-left: 24px !important;
+    }
+  }
+}
